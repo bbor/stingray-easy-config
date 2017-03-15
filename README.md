@@ -10,7 +10,7 @@ This Stingray plug-in gives your runtime Lua scripts a way to access generic SJS
 
 2.	Open the Stingray Editor, and go to the **Plugin Manager** (Ctrl+Shift+K).
 
-3.	Click **Add Plugin**, browse to the `plugin` folder, and select the `easy-config.stingray_plugin` file.
+3.	Click **Add Plugin**, browse to the folder you extracted (or the `plugin` folder of this repo if you built it yourself), and select the `easy-config.stingray_plugin` file.
 
 ## Use
 
