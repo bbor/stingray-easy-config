@@ -1,0 +1,49 @@
+// About
+//
+name = "Easy SJSON Config"
+description = "Makes SJSON .config files from your project accessible at runtime in Lua."
+version = "0.0.1"
+changelog = {
+    "1.0.0": "First release"
+}
+author = {
+    name = "Robb Surridge"
+    email = "robb.surridge@autodesk.com"
+    company = "Autodesk Inc."
+    url = "https://github.com/bbor"
+}
+keywords = ["stingray", "plugin"]
+
+// Define plugin thumbnail
+//thumbnail = "thumbnail.png"
+
+// Extensions
+//
+extensions = {
+
+    // Define asset types that extend the asset browser.
+    asset_types = [
+		// { type = "sjson" category = "Custom" icon = "<icon_file.png>" }
+    ]
+
+    // Load the engine extension in the editor engine instance.
+    runtime_libraries = [
+        {
+            name = "engine_plugin"
+            paths = {
+                win32 = {
+                    dev = "binaries/engine/win64/dev/easy_config_w64_dev.dll"
+                    debug = "binaries/engine/win64/debug/easy_config_w64_debug.dll"
+                    release = "binaries/engine/win64/release/easy_config_w64_release.dll"
+                }
+            }
+        }
+    ]
+}
+
+// Dependencies
+//
+platforms = ["win64"]
+dependencies = {
+    "stingray" = ">=1.8.0"
+}

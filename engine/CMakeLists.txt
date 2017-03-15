@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-project(engine_plugin)
+project(easy_config)
 
 # Include common plugin CMake scripts and set the type of plugin to be to and ENGINE_PLUGIN
 set(ENGINE_PLUGIN ON)
