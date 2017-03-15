@@ -8,9 +8,13 @@ This Stingray plug-in gives your runtime Lua scripts a way to access generic SJS
 
 	Alternatively, get a clone of this repo and run `make.rb` to build its binaries from scratch.
 
-2.	Open the Stingray Editor, and go to the **Plugin Manager** (Ctrl+Shift+K).
+2.	Open the Stingray Editor, and go to the **Plugin Manager** (Alt+Shift+P).
 
 3.	Click **Add Plugin**, browse to the folder you extracted (or the `plugin` folder of this repo if you built it yourself), and select the `easy-config.stingray_plugin` file.
+
+4.	If you're using v1.8 of Stingray, that's all you have to do.
+
+	If you're using v1.7 of Stingray, you'll have to copy the *.dll* files from the plugin folder into the *plugins* folder for each configuration of the engine in your Stingray installation folder.
 
 ## Use
 
