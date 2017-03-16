@@ -29,7 +29,7 @@ extensions = {
     // Load the engine extension in the editor engine instance.
     runtime_libraries = [
         {
-            name = "engine_plugin"
+            name = "easy_config_plugin"
             paths = {
                 win32 = {
                     dev = "binaries/engine/win64/dev/easy_config_w64_dev.dll"
